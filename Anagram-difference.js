@@ -33,3 +33,5 @@ function anagramDifference(w1,w2){
   
   return result;
 }
+
+// or
