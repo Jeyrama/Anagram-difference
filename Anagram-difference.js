@@ -35,3 +35,26 @@ function anagramDifference(w1,w2){
 }
 
 // or
+
+function anagramDifference(w1,w2){
+  w1 = w1.split('');
+  w2 = w2.split('');
+
+   for(let i = 0; i < w1.length; i++) {
+     for (let j = 0; j<w2.length; j++) {
+       if (w1[i] === w2[j]) {
+         w1[i] = ' ';
+         w2[j] = ' ';
+         break;
+       }
+     }
+   }
+   
+   let counter = 0;
+   
+   for(let i = 0; i < w1.length; i++) {
+   if (w1[i] == ' ') counter++;
+   }
+   
+   return w1.length - counter + w2.length - counter;
+}
