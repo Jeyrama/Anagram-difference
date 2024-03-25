@@ -1,16 +1,17 @@
 /*
 Given two words, 
-how many letters do you have to remove from them to make them anagrams?
+how many letters do you have to 
+remove from them to make them anagrams?
 
 Example:
-  First word : c od e w ar s (4 letters removed)
-  Second word : ha c k er r a nk (6 letters removed)
+  First word : codewars => cear (4 letters removed)
+  Second word : hackerrank => cera (6 letters removed)
   Result : 10
 
 Hints:
-  A word is an anagram of another word if they have the same letters 
-  (usually in a different order).
   Do not worry about case. All inputs will be lowercase.
+  A word is an anagram of another word if they have 
+  the same letters (usually in a different order).
 */
 
 
